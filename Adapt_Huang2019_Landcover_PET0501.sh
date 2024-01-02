@@ -1,18 +1,13 @@
 
 
-
-
 #Kai code 
 ## Plot genotype frequency on map
 ## Kaichi Huang 2018 Nov
 
-install.packages(tidyverse)
-install.packages(reshape2)
-install.packages(sp)
-install.packages(raster)
-install.packages(scatterpie)
-install.packages(gridExtra)
+#This conda env is specifically used for these packages
 
+conda activate raster
+R
 
 library(tidyverse)
 library(reshape2)
